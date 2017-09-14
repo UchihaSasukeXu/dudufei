@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.199.164.184:3366/sell?characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: D:\idea\log
+#  file: D:\idea\log\log
+#  level: info
